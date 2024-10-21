@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+*
+{
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body
+{
+  background-color: orange;
+}
+.search
+{
+  display:flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  color: grey;
+  background-color: white;
+  width: 94%;
+  height: 6vh;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+.search:hover
+{
+  background-color: #f7f7f7;
+  text-decoration: underline;
+}
+.icon_q
+{
+  width: 25px;
+  height: 25px;
+}
+nav
+{
+  background-color: yellow;
+  text-align: center;
+}
+.nav
+{
+  color: #ffa6a6;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav:hover
+{
+  text-decoration: underline;
+  color: red;
+}
+main
+{
+  background-color: white;
+}
+footer
+{
+  background-color: grey;
+  text-align: center;
+}
